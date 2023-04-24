@@ -19,5 +19,5 @@ df_interest_canceled = df[df["canceled"] == 0]
 df_interest_commited = df[df["canceled"] == 1]
 
 # st.header("The Dataset:")
-st.markdown("### The Dataset:")
+st.subheadee("The Dataset:")
 st.write(df_interest)
